@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LinkPrice Design Portfolio - 광고 성과를 위한 크리에이티브 디자인 포트폴리오" />
+  <title>LinkPrice Design Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#" data-slide="0" aria-label="LinkPrice Design Portfolio 홈">
+      <img src="assets/linkprice-logo-cutout.png" alt="LinkPrice" />
+      <span>DESIGN PORTFOLIO</span>
+    </a>
+
+    <nav class="nav-links" aria-label="페이지 이동">
+      <button type="button" data-slide="0">Home</button>
+      <button type="button" data-slide="1">Works</button>
+      <button type="button" data-slide="2">Categories</button>
+      <button type="button" data-slide="7">Process</button>
+      <button type="button" data-slide="8" class="nav-cta">Contact</button>
+    </nav>
+
+    <div class="nav-status">
+      <span class="status-label">PAGE</span>
+      <strong id="pageStatus">01 / 09</strong>
+    </div>
+  </header>
+
+  <main class="slider" id="slider" aria-live="polite">
+    <section class="page page-intro" data-page-label="Home">
+      <div class="page-inner hero-grid">
+        <div class="copy-block reveal">
+          <span class="eyebrow">LINKPRICE CREATIVE</span>
+          <h1>링크프라이스<br>디자인 포트폴리오</h1>
+          <p class="lead">브랜드 톤앤매너와 매체 특성을 함께 고려해, 한 장 안에 메시지와 시각적 완성도를 담아낸 디자인 사례를 정리했습니다.</p>
+
+          <div class="hero-actions">
+            <button class="btn primary" type="button" data-slide="1">작업물 보기</button>
+            <button class="btn ghost" type="button" data-slide="8">연락처 보기</button>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="floating-card card-a zoomable" data-title="YANKEE MUSINSA EVENT" data-sub="Beauty / Promotion">
+            <img src="assets/yaneke.jpg" alt="야네케 무신사 런칭 이벤트 디자인" />
+          </div>
+          <div class="floating-card card-b zoomable" data-title="HOME & HEAL DOUBLE DISCOUNT" data-sub="Living / Performance">
+            <img src="assets/homeheal.jpg" alt="홈앤힐 더블 할인 디자인" />
+          </div>
+          <div class="floating-card card-c zoomable" data-title="O!SALE CAMPAIGN" data-sub="Living / Campaign">
+            <img src="assets/osale.png" alt="오늘의집 O!SALE 디자인" />
+          </div>
+          <div class="accent accent-red"></div>
+          <div class="accent accent-cream"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page page-works" data-page-label="Works">
+      <div class="page-inner works-inner">
+        <div class="section-heading reveal">
+          <div class="section-title-group">
+            <span class="eyebrow">SELECTED WORKS</span>
+            <h2>대표 작업물</h2>
+          </div>
+          <p>브랜드별 분위기와 주요 메시지가 깔끔하게 읽히도록 정리한 대표 작업물입니다. 실제 광고소재처럼 한눈에 이해되는 구조를 중심으로 구성했습니다.</p>
+        </div>
+
+        <div class="works-grid">
+          <article class="work-card reveal zoomable" data-title="YANKEE MUSINSA EVENT" data-sub="Beauty / Promotion">
+            <div class="work-thumb"><img src="assets/yaneke.jpg" alt="야네케 무신사 런칭 이벤트" /></div>
+            <div class="work-copy">
+              <span>Beauty / Promotion</span>
+              <h3>YANKEE MUSINSA EVENT</h3>
+              <p>제품 비주얼과 증정 혜택을 함께 강조하는 런칭형 이벤트 디자인</p>
+            </div>
+          </article>
+
+          <article class="work-card reveal delay-1 zoomable" data-title="HOME & HEAL DOUBLE DISCOUNT" data-sub="Living / Performance">
+            <div class="work-thumb"><img src="assets/homeheal.jpg" alt="홈앤힐 더블 할인" /></div>
+            <div class="work-copy">
+              <span>Living / Performance</span>
+              <h3>HOME &amp; HEAL</h3>
+              <p>강조 문구와 가격 정보를 명확하게 배치한 퍼포먼스형 프로모션 디자인</p>
+            </div>
+          </article>
+
+          <article class="work-card reveal delay-2 zoomable" data-title="O!SALE CAMPAIGN" data-sub="Living / Campaign">
+            <div class="work-thumb"><img src="assets/osale.png" alt="오늘의집 O!SALE" /></div>
+            <div class="work-copy">
+              <span>Living / Campaign</span>
+              <h3>O!SALE</h3>
+              <p>행사명과 혜택을 큼직하게 전달하는 시즌 캠페인형 디자인</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="page page-category dark" data-page-label="Food">
+      <div class="page-inner category-grid">
+        <div class="category-copy reveal">
+          <span class="eyebrow">01 / CATEGORY</span>
+          <h2>Food Design</h2>
+          <p class="lead-sm">가격 메리트와 맛 포인트, 신뢰감을 빠르게 읽히게 만드는 식품형 광고 디자인입니다.</p>
+
+          <div class="info-table">
+            <div><span>Focus</span><b>가격 · 맛 · 리뷰 · 시즌 프로모션</b></div>
+            <div><span>Visual Point</span><b>먹음직스러운 제품 노출, 높은 주목도 타이틀, 즉시 혜택 강조</b></div>
+            <div><span>Best For</span><b>식품 배너 · 특가 프로모션 · 리뷰 기반 소재</b></div>
+          </div>
+        </div>
+
+        <div class="sheet-frame reveal delay-1 zoomable" data-title="FOOD DESIGN COLLECTION" data-sub="Category Portfolio">
+          <img src="assets/pdf_pages/page-2.png" alt="Food 디자인 포트폴리오 페이지" />
+        </div>
+      </div>
+    </section>
+
+    <section class="page page-category dark" data-page-label="Living">
+      <div class="page-inner category-grid">
+        <div class="category-copy reveal">
+          <span class="eyebrow">02 / CATEGORY</span>
+          <h2>Living Design</h2>
+          <p class="lead-sm">공간의 분위기와 제품 사용 장면을 살리면서도, 할인·USP가 잘 보이도록 균형을 맞춘 리빙 디자인입니다.</p>
+
+          <div class="info-table">
+            <div><span>Focus</span><b>공간 연출 · 제품 사용컷 · 행사 타이틀</b></div>
+            <div><span>Visual Point</span><b>라이프스타일 무드, 넓은 여백, 안정적인 레이아웃</b></div>
+            <div><span>Best For</span><b>가구 · 침구 · 홈리빙 프로모션</b></div>
+          </div>
+        </div>
+
+        <div class="sheet-frame reveal delay-1 zoomable" data-title="LIVING DESIGN COLLECTION" data-sub="Category Portfolio">
+          <img src="assets/pdf_pages/page-3.png" alt="Living 디자인 포트폴리오 페이지" />
+        </div>
+      </div>
+    </section>
+
+    <section class="page page-category dark" data-page-label="Digital">
+      <div class="page-inner category-grid">
+        <div class="category-copy reveal">
+          <span class="eyebrow">03 / CATEGORY</span>
+          <h2>Digital Design</h2>
+          <p class="lead-sm">기능, 신제품, 할인율처럼 전달해야 할 정보가 많은 디지털/가전 카테고리에 적합한 구조형 디자인입니다.</p>
+
+          <div class="info-table">
+            <div><span>Focus</span><b>USP · 할인율 · 기능 설명 · 제품 컷</b></div>
+            <div><span>Visual Point</span><b>강한 헤드라인, 선명한 가격 영역, 기능 우선 정보 정리</b></div>
+            <div><span>Best For</span><b>가전 · 헬스기기 · 디지털 프로모션</b></div>
+          </div>
+        </div>
+
+        <div class="sheet-frame reveal delay-1 zoomable" data-title="DIGITAL DESIGN COLLECTION" data-sub="Category Portfolio">
+          <img src="assets/pdf_pages/page-4.png" alt="Digital 디자인 포트폴리오 페이지" />
+        </div>
+      </div>
+    </section>
+
+    <section class="page page-category dark" data-page-label="Beauty">
+      <div class="page-inner category-grid">
+        <div class="category-copy reveal">
+          <span class="eyebrow">04 / CATEGORY</span>
+          <h2>Beauty Design</h2>
+          <p class="lead-sm">제품의 프리미엄 무드와 효능 포인트를 함께 살려, 시각적인 신뢰감과 구매 욕구를 높이는 뷰티 디자인입니다.</p>
+
+          <div class="info-table">
+            <div><span>Focus</span><b>브랜드 무드 · 제품 질감 · 효능 메세지</b></div>
+            <div><span>Visual Point</span><b>톤 정리, 제품 집중도, 클린한 정보 계층</b></div>
+            <div><span>Best For</span><b>화장품 · 뷰티 디바이스 · 프로모션 소재</b></div>
+          </div>
+        </div>
+
+        <div class="sheet-frame reveal delay-1 zoomable" data-title="BEAUTY DESIGN COLLECTION" data-sub="Category Portfolio">
+          <img src="assets/pdf_pages/page-5.png" alt="Beauty 디자인 포트폴리오 페이지" />
+        </div>
+      </div>
+    </section>
+
+    <section class="page page-category dark" data-page-label="Service">
+      <div class="page-inner category-grid">
+        <div class="category-copy reveal">
+          <span class="eyebrow">05 / CATEGORY</span>
+          <h2>Service Design</h2>
+          <p class="lead-sm">서비스의 핵심 효익과 CTA를 짧고 강하게 전달하는 정보형 광고 디자인입니다.</p>
+
+          <div class="info-table">
+            <div><span>Focus</span><b>문제 제기 · 해결 포인트 · CTA</b></div>
+            <div><span>Visual Point</span><b>문장형 헤드라인, 설명 구조, 클릭 유도 강조</b></div>
+            <div><span>Best For</span><b>앱 · 법률 · 채용 · 플랫폼 서비스 광고</b></div>
+          </div>
+        </div>
+
+        <div class="sheet-frame reveal delay-1 zoomable" data-title="SERVICE DESIGN COLLECTION" data-sub="Category Portfolio">
+          <img src="assets/pdf_pages/page-6.png" alt="Service 디자인 포트폴리오 페이지" />
+        </div>
+      </div>
+    </section>
+
+    <section class="page page-process" data-page-label="Process">
+      <div class="page-inner process-grid">
+        <div class="process-card reveal">
+          <span class="eyebrow">HOW WE DESIGN</span>
+          <h2>예쁜 것보다 읽히는 구조를 먼저 봅니다.</h2>
+          <div class="step-list">
+            <div><b>01</b><strong>Brief</strong><p>브랜드 톤, 주요 제품, 행사 포인트, 매체 규격을 먼저 정리합니다.</p></div>
+            <div><b>02</b><strong>Message</strong><p>제목, 가격, 혜택, CTA 순으로 정보 우선순위를 설계합니다.</p></div>
+            <div><b>03</b><strong>Visual</strong><p>카테고리에 맞는 타이포, 배색, 제품 강조 방식으로 시안을 제작합니다.</p></div>
+            <div><b>04</b><strong>Refine</strong><p>잘리는 영역, 정렬, 가독성, 매체 적합성을 점검하고 마무리합니다.</p></div>
+          </div>
+        </div>
+
+        <div class="support-card reveal delay-1">
+          <span class="eyebrow">CREATIVE SUPPORT</span>
+          <h2>지원 가능한 디자인 범위</h2>
+          <div class="support-table">
+            <div><span>01</span><b>프로모션 배너</b><p>행사/특가/런칭 메시지 전달</p></div>
+            <div><span>02</span><b>SNS / DA 소재</b><p>메타, GFA, 카카오, 네이버 등</p></div>
+            <div><span>03</span><b>커머스 비주얼</b><p>브랜드몰/오픈마켓/스토어 전용 소재</p></div>
+            <div><span>04</span><b>카테고리 맞춤형 디자인</b><p>Food · Living · Digital · Beauty · Service</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page page-contact" data-page-label="Contact">
+      <div class="page-inner contact-layout">
+        <div class="contact-panel reveal">
+          <span class="eyebrow light">CONTACT</span>
+          <h2>다음 광고 소재도 링크프라이스답게 정리해드립니다.</h2>
+          <p class="contact-lead">브랜드와 매체 특성에 맞춘 크리에이티브 방향을 정리하고, 광고주 커뮤니케이션과 실제 집행에 활용 가능한 디자인을 제안합니다.</p>
+
+          <div class="info-table compact light-table">
+            <div><span>담당자</span><b>안희성 매니저</b></div>
+            <div><span>Company</span><b>LinkPrice</b></div>
+            <div><span>Email</span><b>hsan@linkprice.com</b></div>
+            <div><span>Mobile</span><b>010-7165-8124</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="page-controls" aria-label="슬라이드 이동">
+    <button type="button" id="prevBtn" class="ctrl-btn" aria-label="이전 페이지">←</button>
+    <div class="page-dots" id="pageDots"></div>
+    <button type="button" id="nextBtn" class="ctrl-btn" aria-label="다음 페이지">→</button>
+  </div>
+
+  <footer class="site-footer">
+    <span>© LINKPRICE. ALL RIGHTS RESERVED.</span>
+    <span>Use mouse wheel or ← → keys to move</span>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <button class="modal-close" aria-label="닫기">×</button>
+    <div class="modal-box">
+      <img id="modalImg" src="" alt="확대 이미지" />
+      <div>
+        <span id="modalSub"></span>
+        <h3 id="modalTitle"></h3>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
